@@ -1,0 +1,4 @@
+name = AdvancedAccessoryCombinations
+displayName = Advanced Accessory Combinations
+version = 0.2
+author = Qucumberman

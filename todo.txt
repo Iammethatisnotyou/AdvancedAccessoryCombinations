@@ -1,0 +1,47 @@
+Terraria Mod Ideas
+
+NOTE
+When changing mod remove it from Tmod and copy over
+
+TMODPATH
+~/.local/share/Terraria/tModLoader/ModSources/
+rm -rf ~/.local/share/Terraria/tModLoader/ModSources/AdvancedAccessoryCombinations/ && cp -r ~/Documents/AdvancedAccessoryCombinations/ ~/.local/share/Terraria/tModLoader/ModSources/
+
+
+DEFAULT SPRITES PATH
+~/.local/share/Steam/steamapps/common/Terraria/Content/Images
+For Example
+~/.local/share/Steam/steamapps/common/Terraria/Content/Images/Item_3224.xnb
+Turn the xnb to zip to png
+
+TITLE
+Advanced Accessory Combinations
+
+PURPOSE
+The purpose of this mod is to combine later obtained accessories that fit together into a better cooler accessory.
+
+TODO
+Impliment all the sprites
+Learn about modding
+Learn about C#
+Impliment the items with the code
+play test and add new features or de-scale if it's difficult
+
+NEW ITEM IDEAS
+Brain Scarf = brain of cuthulu + eater of worlds scarf
+Lava Obsidian Shield = obsidian shield + obsidian rose + Molten Charm
+Trinity Shield = Ankh shield + frozen shield + berserker shield
+Honey Star of Myths = Star Veil + Charm of Myths + Sweetheart Necklace
+Terra Frog Boots = Terraspark + Amphibian + soaring insignia
+
+ITEMS
+Master ninja frog gear = master ninja gear + frog leg + flipper
+Master Swamp gear = ninja frog gear + water walking boots
+celestial shield = ankh shield + celestial shell
+cuthulu ankh = cuthulu shield + ankh shield
+ultimate diving gear = artic diving gear + neptune shell + water walking boots
+hardened band = charm of myths + shackle
+slime shield = cuthulu shield + royal gel
+
+AUTHOR
+Qucumberman
