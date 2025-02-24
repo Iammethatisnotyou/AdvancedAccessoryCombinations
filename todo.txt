@@ -23,9 +23,9 @@ The purpose of this mod is to combine later obtained accessories that fit togeth
 TODO
 Impliment all the sprites
 Learn about modding
-Learn about C#
-Impliment the items with the code
-play test and add new features or de-scale if it's difficult
+Impliment all the items with the code
+play test and add new features or de-scale if it's difficult 20 items seems good.
+Add icons and good documentation.
 
 NEW ITEM IDEAS
 Brain Scarf = brain of cuthulu + eater of worlds scarf

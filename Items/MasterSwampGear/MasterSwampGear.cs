@@ -3,8 +3,6 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-//namespace AdvancedAccessoryCombinations.Items.MasterNinjaFrogGear
-
 namespace AdvancedAccessoryCombinations.Items.MasterSwampGear{
 	//namespace AdvancedAccessoryCombinations.Items.MasterNinjaFrogGear
 
@@ -44,9 +42,7 @@ The Master Swamp Gear Grants the affects of Master Ninja Frog Gear with Water Wa
 
 		public override void AddRecipes(){
 			Recipe recipe = CreateRecipe();
-			//recipe.AddIngredient(ModContent.ItemType<MasterNinjaFrogGear>());
-			recipe.AddIngredient(ModContent.ItemType<AdvancedAccessoryCombinations.Items.MasterNinjaFrogGear.MasterNinjaFrogGear>());
-			//recipe.AddIngredient<MasterNinjaFrogGear.MasterNinjaFrogGear();
+			recipe.AddIngredient<MasterNinjaFrogGear.MasterNinjaFrogGear>();
 			recipe.AddIngredient(ItemID.WaterWalkingBoots);
 			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.Register();
