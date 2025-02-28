@@ -3,12 +3,12 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace AdvancedAccessoryCombinations.Items.HardenedBand{
-	public sealed class HardenedBand : ModItem{
+namespace AdvancedAccessoryCombinations.Items.ObsidianCthulhuShield{
+	public sealed class ObsidianCthulhuShield : ModItem{
 		public static readonly string InlineWikiLibValue = @"
-## Hardened Band ![AdvancedAccessoryCombinations/Items/HardenedBand]t4
+## Obsidian Cthulhu Shield ![AdvancedAccessoryCombinations/Items/ObsidianCthulhuShield]t4
 
-The Hardened Band Grants Increased regeneration, 25% potion cool down and 1 defense.
+The Obsidian Cthulhu Shield Grants a dash ability and immunity to lava and no knockback.
 ";
 
 		public override void SetStaticDefaults(){
@@ -18,22 +18,23 @@ The Hardened Band Grants Increased regeneration, 25% potion cool down and 1 defe
 		public override void SetDefaults(){
 		    Item.accessory = true;
 		    Item.width = 30;
-		    Item.height = 20;
-		    Item.value = Item.sellPrice(0, 4, 20);
-		    Item.rare = ItemRarityID.Orange;
+		    Item.height = 32;
+		    Item.value = Item.sellPrice(0, 5);
+		    Item.rare = ItemRarityID.Expert;
 		    Item.stack = 1;
 		}
 
 		public override void UpdateAccessory(Player player, bool hideVisual){
-		    player.statDefense += 1;
-		    player.lifeRegen += 1;
-		    player.pStone = true;
+			player.dashType = 1;
+
+			player.noKnockback = true;
+			player.fireWalk = true;
 		}
 
 		public override void AddRecipes(){
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.CharmofMyths);
-			recipe.AddIngredient(ItemID.Shackle);
+			recipe.AddIngredient(ItemID.EoCShield);
+			recipe.AddIngredient(ItemID.ObsidianShield);
 			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.Register();
         	}

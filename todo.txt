@@ -7,11 +7,13 @@ TMODPATH
 ~/.local/share/Terraria/tModLoader/ModSources/
 rm -rf ~/.local/share/Terraria/tModLoader/ModSources/AdvancedAccessoryCombinations/ && cp -r ~/Documents/AdvancedAccessoryCombinations/ ~/.local/share/Terraria/tModLoader/ModSources/
 
+ID
+https://terraria.wiki.gg/wiki/Item_IDs
 
 DEFAULT SPRITES PATH
 ~/.local/share/Steam/steamapps/common/Terraria/Content/Images
 For Example
-~/.local/share/Steam/steamapps/common/Terraria/Content/Images/Item_3224.xnb
+~/.local/share/Steam/steamapps/common/Terraria/Content/Images/Item_3097.xnb
 Turn the xnb to zip to png
 
 TITLE
@@ -28,9 +30,12 @@ play test and add new features or de-scale if it's difficult 20 items seems good
 Add icons and good documentation.
 
 NEW ITEM IDEAS
+Celestial Arcane Cloak = Mana Cloak + putrid scent + Celestial Magnet
+pygmy papyrus = papyrus scarab + pygmy necklace
+Stalkers Molten Quiver = Stalkers Quiver + magma stone
 Brain Scarf = brain of cuthulu + eater of worlds scarf
 Lava Obsidian Shield = obsidian shield + obsidian rose + Molten Charm
-Trinity Shield = Ankh shield + frozen shield + berserker shield
+Frozen Hero Shield = paladin shield + frozen turtle shield + flesh knuckles
 Honey Star of Myths = Star Veil + Charm of Myths + Sweetheart Necklace
 Terra Frog Boots = Terraspark + Amphibian + soaring insignia
 
