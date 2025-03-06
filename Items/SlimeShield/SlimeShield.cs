@@ -9,7 +9,6 @@ namespace AdvancedAccessoryCombinations.Items.SlimeShield{
 ## Slime Shield ![AdvancedAccessoryCombinations/Items/SlimeShield]t4
 
 The Slime Shield Grants Allows the player to dash into the enemy and grants immunity to slimes.";
-
 		public override void SetStaticDefaults(){
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
@@ -21,10 +20,16 @@ The Slime Shield Grants Allows the player to dash into the enemy and grants immu
 		    Item.value = Item.sellPrice(0, 5);
 		    Item.rare = ItemRarityID.Expert;
 		    Item.stack = 1;
+		    Item.defense = 2;
+		    Item.noMelee = false;
+		    Item.damage = 30;
+		    Item.knockBack = 9f;
+		    Item.DamageType = DamageClass.Melee;
 		}
+		public static int ItemType() => ModContent.ItemType<SlimeShield>();
 
 		public override void UpdateAccessory(Player player, bool hideVisual){
-			player.dashType = 1;
+			player.dashType = 2;
 
 			player.npcTypeNoAggro[NPCID.BlueSlime] = true;
 			player.npcTypeNoAggro[NPCID.SpikedIceSlime] = true;

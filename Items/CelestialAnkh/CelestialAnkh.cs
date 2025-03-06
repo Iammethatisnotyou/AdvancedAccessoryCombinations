@@ -20,8 +20,9 @@ The Celestial Ankh Grants the immunities of the Ankh Shield and abilities of the
 		    Item.width = 30;
 		    Item.height = 34;
 		    Item.value = Item.sellPrice(0, 20);
-		    Item.rare = ItemRarityID.Orange;
+		    Item.rare = ItemRarityID.Yellow;
 		    Item.stack = 1;
+		    Item.defense = 4;
 		}
 
 		public override void UpdateAccessory(Player player, bool hideVisual){

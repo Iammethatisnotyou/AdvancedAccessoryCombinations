@@ -20,8 +20,9 @@ The Hardened Band Grants Increased regeneration, 25% potion cool down and 1 defe
 		    Item.width = 30;
 		    Item.height = 20;
 		    Item.value = Item.sellPrice(0, 4, 20);
-		    Item.rare = ItemRarityID.Orange;
+		    Item.rare = ItemRarityID.LightPurple;
 		    Item.stack = 1;
+		    Item.defense = 1;
 		}
 
 		public override void UpdateAccessory(Player player, bool hideVisual){

@@ -22,10 +22,15 @@ The Obsidian Cthulhu Shield Grants a dash ability and immunity to lava and no kn
 		    Item.value = Item.sellPrice(0, 5);
 		    Item.rare = ItemRarityID.Expert;
 		    Item.stack = 1;
+		    Item.defense = 4;
+		    Item.noMelee = false;
+		    Item.damage = 30;
+		    Item.knockBack = 9f;
+		    Item.DamageType = DamageClass.Default;
 		}
 
 		public override void UpdateAccessory(Player player, bool hideVisual){
-			player.dashType = 1;
+			player.dashType = 2;
 
 			player.noKnockback = true;
 			player.fireWalk = true;

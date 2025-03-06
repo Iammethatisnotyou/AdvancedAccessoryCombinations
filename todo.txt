@@ -13,7 +13,7 @@ https://terraria.wiki.gg/wiki/Item_IDs
 DEFAULT SPRITES PATH
 ~/.local/share/Steam/steamapps/common/Terraria/Content/Images
 For Example
-~/.local/share/Steam/steamapps/common/Terraria/Content/Images/Item_3097.xnb
+~/.local/share/Steam/steamapps/common/Terraria/Content/Images/Item_4007.xnb
 Turn the xnb to zip to png
 
 TITLE
@@ -23,13 +23,14 @@ PURPOSE
 The purpose of this mod is to combine later obtained accessories that fit together into a better cooler accessory.
 
 TODO
-Impliment all the sprites
-Learn about modding
-Impliment all the items with the code
-play test and add new features or de-scale if it's difficult 20 items seems good.
-Add icons and good documentation.
+Impliment the sprites for vanity
+Take screenshots for steam page
+Take a video for youtube
+Clean up code.
+Add French Full French Support
 
 NEW ITEM IDEAS
+Adrenaline Necklace = Stinger Necklace + Panic Necklace
 Celestial Arcane Cloak = Mana Cloak + putrid scent + Celestial Magnet
 pygmy papyrus = papyrus scarab + pygmy necklace
 Stalkers Molten Quiver = Stalkers Quiver + magma stone

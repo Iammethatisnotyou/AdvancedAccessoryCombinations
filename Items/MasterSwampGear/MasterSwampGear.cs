@@ -4,7 +4,6 @@ using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
 namespace AdvancedAccessoryCombinations.Items.MasterSwampGear{
-	//namespace AdvancedAccessoryCombinations.Items.MasterNinjaFrogGear
 
 	public sealed class MasterSwampGear : ModItem{
 		public static readonly string InlineWikiLibValue = @"
@@ -21,7 +20,7 @@ The Master Swamp Gear Grants the affects of Master Ninja Frog Gear with Water Wa
 		    Item.width = 30;
 		    Item.height = 30;
 		    Item.value = Item.sellPrice(0, 16, 0, 0);
-		    Item.rare = ItemRarityID.Orange;
+		    Item.rare = ItemRarityID.Yellow;
 		    Item.stack = 1;
 		}
 

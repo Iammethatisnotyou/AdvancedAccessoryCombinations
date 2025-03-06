@@ -1,3 +1,28 @@
 The purpose of this mod is to combine later obtained accessories that fit together into a better cooler accessory.
 
-This is my first mod and as of Feb 23, 2025 this mod is in very early testing.
+Supports the French language with my basic knowlege, contact me if something is incorrect.
+
+Items
+Brain Scarf = Brain of Cthulhu + Worm Scarf
+Celestial Shield = Ankh Shield + Celestial Shell
+Frozen Hero Shield = Paladin Shield + Frozen Turtle Shell + Flesh Knuckles
+Hardened band = Charm of Myths + Shackle
+Master Ninja Frog Gear = Master Ninja Gear + Frog Leg + Flipper
+Master Swamp Gear = Ninja Frog Gear + Water Walking Boots
+Obsidian Cthulhu Shield = Obsidian Shield + Cthulhu Shield
+Slime Shield = Cthulhu Shield + Royal Gel
+Terra Amphibian Boots = Terraspark + Amphibian
+Ultimate Diving Gear = Artic Diving Gear + Neptune Shell + Water Walking Boots
+
+To-do List
+Impliment sprites for wearing
+Add some new items probably 5 - 10
+Add configurability
+Check TODO.txt on github for more information
+
+Github link
+github.com/Iammethatisnotyou/AdvancedAccessoryCombinations
+
+Extra Information & Credits
+This is my first mod starting development on Feb 23, 2025 this mod is in early development. If you are a modder and want to help with development email Qucumberman@gmail.com
+Special thanks to everyone on the tModLoader Discord for helping me and my friend Soren who has contributed various ideas as well.

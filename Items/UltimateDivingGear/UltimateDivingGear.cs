@@ -19,7 +19,7 @@ namespace AdvancedAccessoryCombinations.Items.UltimateDivingGear{
 			Item.width = 30;
 			Item.height = 20;
 			Item.value = Item.sellPrice(0, 17, 50, 0);
-			Item.rare = ItemRarityID.Orange;
+			Item.rare = ItemRarityID.Pink;
 			Item.stack = 1;
 		}
 

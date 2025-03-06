@@ -1,0 +1,108 @@
+Mods: {
+	AdvancedAccessoryCombinations: {
+		Items: {
+			BrainScarf: {
+				DisplayName: Brain Scarf
+				Tooltip:
+				'''
+				Reduces damage taken by 17%
+				Has a chance to create illusions and dodge an attack
+				Temporarily increase critical chance after dodge
+				May confuse nearby enemies after being struck
+				'''
+			}
+			CelestialAnkh: {
+				DisplayName: Celestial Ankh
+				Tooltip:
+				'''
+				Grants immunity to knockback and fire blocks
+				Grants immunity to most debuffs
+				Turns the holder into a werewolf at night
+				Turns the holder into a merfolk when entering water
+				Grants minor buffs during day
+				'''
+			}
+			FrozenHeroShield: {
+				DisplayName: Frozen Hero Shield
+				Tooltip:
+				'''
+				Grants immunity to knockback
+				Puts a shell around the owner when below 50% life that reduces damage by 25%
+				Enemies are more likely to target you
+				Absorbs 25% of damage done to players on your team when above 25% life
+				'''
+			}
+			HardenedBand: {
+				DisplayName: Hardened Band
+				Tooltip:
+				'''
+				Provides life regeneration and reduces the cooldown of healing potions by 25%
+				'''
+			}
+			MasterNinjaFrogGear: {
+				DisplayName: Master Ninja Frog Gear
+				Tooltip:
+				'''
+				Grants increased mobility
+				chance to dodge attacks
+				dash ability
+				auto jump and increased jump height.
+				'''
+			}
+			MasterSwampGear: {
+				DisplayName: Master Swamp Gear
+				Tooltip:
+				'''
+				Grants increased mobility
+				chance to dodge attacks
+				dash ability
+				auto jump and increased jump height.
+				Provides the ability to walk on water & honey
+				'''
+			}
+			ObsidianCthulhuShield: {
+				DisplayName: Obsidian Cuthulhu Shield
+				Tooltip:
+				'''
+				Grants immunity to knockback
+				Grants immunity to fire blocks
+				Allows the player to dash into the enemy
+				Double tap a direction
+
+				'''
+			}
+			SlimeShield: {
+				DisplayName: Slime Shield
+				Tooltip:
+				'''
+				Slimes become friendly
+				Allows the player to dash into the enemy
+				Double tap a direction
+				'''
+			}
+			TerraAmphibianBoots: {
+				DisplayName: Terra Amphibian Boots
+				Tooltip:
+				'''
+				Allows flight, super fast running, and extra mobility on ice
+				8% increased movement speed
+				Provides the ability to walk on water, honey & lava
+				Grants immunity to fire blocks and 7 seconds of immunity to lava
+				Reduces damage from touching lava
+				auto jump and increased jump height.
+				'''
+			}
+			UltimateDivingGear: {
+				DisplayName: Ultimate Diving Gear
+				Tooltip:
+				'''
+				Turns the holder into a merfolk when entering water
+				Grants the ability to swim and greatly extends underwater breathing
+				Provides extra mobility on ice
+				Generates a very subtle glow which becomes more vibrant underwater
+				Provides the ability to walk on water & honey
+				'''
+			}
+		}
+	}
+}

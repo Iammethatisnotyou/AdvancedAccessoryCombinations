@@ -1,9 +1,11 @@
 using Terraria.ID;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
 namespace AdvancedAccessoryCombinations.Items.MasterNinjaFrogGear{
+	//[AutoloadEquip(EquipType.Body)]
 	public sealed class MasterNinjaFrogGear : ModItem{
 		public static readonly string InlineWikiLibValue = @"
 		## Master Ninja Frog Gear
@@ -22,13 +24,12 @@ namespace AdvancedAccessoryCombinations.Items.MasterNinjaFrogGear{
 		public override void SetStaticDefaults(){
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
-
 		public override void SetDefaults(){
 		    Item.accessory = true;
 		    Item.width = 30;
 		    Item.height = 30;
 		    Item.value = Item.sellPrice(0, 12, 0, 0);
-		    Item.rare = ItemRarityID.LightPurple;
+		    Item.rare = ItemRarityID.Yellow;
 		    Item.stack = 1;
 		}
 
@@ -46,12 +47,19 @@ namespace AdvancedAccessoryCombinations.Items.MasterNinjaFrogGear{
 		}
 
 		public override void AddRecipes(){
+
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.MasterNinjaGear);
-			recipe.AddIngredient(ItemID.FrogLeg);
-			recipe.AddIngredient(ItemID.Flipper);
+			recipe.AddIngredient(ItemID.FrogGear);
+			recipe.AddIngredient(ItemID.Tabi);
+			recipe.AddIngredient(ItemID.BlackBelt);
 			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.Register();
+
+			Recipe recipe2 = CreateRecipe();
+			recipe2.AddIngredient(ItemID.MasterNinjaGear);
+			recipe2.AddIngredient(ItemID.FrogFlipper);
+			recipe2.AddTile(TileID.TinkerersWorkbench);
+			recipe2.Register();
         	}
 	}
 }

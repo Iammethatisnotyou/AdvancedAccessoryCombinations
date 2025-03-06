@@ -1,0 +1,109 @@
+Mods: {
+	AdvancedAccessoryCombinations: {
+		Items: {
+			BrainScarf: {
+				DisplayName: Écharpe du Cerveau
+				Tooltip:
+				'''
+				Réduit dégâts prend pour 17%
+				Avoir une chance faire un ruse et s'esquiver un échapper
+				bientôt plus critique chance après s'esquiver
+				peut confondre les ennemis après avoir etait frappé
+				'''
+			}
+			CelestialAnkh : {
+				DisplayName: Ânkh de Céleste:
+				Tooltip:
+				'''
+				Immunise contre le recul et les blocs de feu
+				Immunise contre la plupart des alterations
+				Transforme en loup-garou la nuit
+				Transforme en sirene ou triton au contact de l'eau
+				Augmunte légèrentment les degats, la vitesse au corps à corps
+				Les chancess de coup critique, la régénération de santé, la defense, la vitesse d'extraction et le recul de sbrires
+				'''
+			}
+			FrozenHeroShield: {
+				DisplayName: Bouclier de Carapace et Héros 
+				Tooltip:
+				'''
+				Entoure le porteur avec une santé inférieure à 50% d'une carapace qui réduit les dégâts de 25%
+				Les ennemis sont plus susceptible de vous viser
+				Absorbe 25% des dégâts subis par les joueurs de votre équipe lorsque votre santé est supérieure à 25%
+				'''
+			}
+			HardenedBand: {
+				DisplayName: Anneau de Fort
+				Tooltip:
+				'''
+				Régénere la santé et réduit le temps de recharge des potions de soin de 25%
+				'''
+			}
+			MasterNinjaFrogGear: {
+				DisplayName: Ninja pro de Grenouille
+				Tooltip:
+				'''
+				Permet d'escalader les murs et de foncer
+				Donne une chance d'éviter les attaques
+				Augmente la vitesse de saut et permet le saut automatique
+				Augmente la resistance a la chute
+				Permettent de nager
+				'''
+			}
+			MasterSwampGear: {
+				DisplayName: Marais de Grenouille
+				Tooltip:
+				'''
+				Permet d'escalader les murs et de foncer
+				Donne une chance d'éviter les attaques
+				Augmente la vitesse de saut et permet le saut automatique
+				Augmente la resistance a la chute
+				Permettent de marcher sur l'eau et le miel
+				Permettent de nager
+				'''
+			}
+			ObsidianCthulhuShield: {
+				DisplayName: Bouclier Obsidienne de Cthulhu
+				Tooltip:
+				'''
+				Donnez immunité à revers
+				Donnez immunité à blocks de feu
+				Autorisez le joueur à foncer dans les ennemis 
+				Appuyez deux fois dans une direction
+				'''
+			}
+			SlimeShield: {
+				DisplayName: Slime du Bouclier
+				Tooltip:
+				'''
+				Les slimes devenit amicale
+				Autorise le joueur à s'esquiver into les ennemis 
+				Appuyez deux fois dans une direction
+				'''
+			}
+			TerraAmphibianBoots: {
+				DisplayName: Bottes de Terra Amphibiens
+				Tooltip:
+				'''
+				Permettent de voler, de courir très vite et de mieux se déplacer sur la glace
+				+8% de vitesse de deplacement
+				Permettent de marcher sur l'eau, le miel et la lave
+				Immunisent contre les blocks de feut et pendent 7 secondes contre la lave
+				Réduit les dégâts au contact de la lave
+				Augmente la vitesse de saut et permet le saut automatique
+				'''
+			}
+			UltimateDivingGear: {
+				DisplayName: Ultime Plongée
+				Tooltip:
+				'''
+				Transforme en sirene ou triton au contact de l'eau si equipe
+				Permet de nager et rallonge considérablement la respiration sou l'eau
+				Permet de mieux se déplacer sur la glace
+				Génère une leurs très faible qui s'intensie sous l'eau
+				Permettent de marcher sur l'eau et le miel
+				'''
+			}
+		}
+	}
+}

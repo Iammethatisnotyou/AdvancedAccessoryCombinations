@@ -8,7 +8,7 @@ namespace AdvancedAccessoryCombinations.Items.FrozenHeroShield{
 		public static readonly string InlineWikiLibValue = @"
 ## Frozen Hero Shield ![AdvancedAccessoryCombinations/Items/FrozenHeroShield]t4
 
-The Frozen Hero Shield Grants 14 defense, increased aggro, a frozen barrier buff under 50% and no knockback.";
+The Frozen Hero Shield Grants 10 defense, increased aggro, a frozen barrier buff under 50% and no knockback.";
 
 		public override void SetStaticDefaults(){
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
@@ -19,8 +19,9 @@ The Frozen Hero Shield Grants 14 defense, increased aggro, a frozen barrier buff
 		    Item.width = 36;
 		    Item.height = 38;
 		    Item.value = Item.sellPrice(0, 18);
-		    Item.rare = ItemRarityID.Orange;
+		    Item.rare = ItemRarityID.Pink;
 		    Item.stack = 1;
+		    Item.defense = 10;
 		}
 
 		public override void UpdateAccessory(Player player, bool hideVisual){
